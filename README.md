@@ -1,140 +1,121 @@
 <div align="center">
 
-# 🧭 Portafolio · Omar Villaseñor
+# El camino de un politólogo en los datos
 
-### De las ciencias sociales al análisis de datos y la tecnología pública
+**Jesús Omar Villaseñor Carrillo** · Data Engineer
+Guadalajara, Jalisco (Remoto)
 
-*Un portafolio que también quiere ser un mapa para quien viene del mismo camino.*
+*Portafolio de proyectos de ingeniería y análisis de datos, tecnología aplicada a lo público,
+y recursos para quienes llegan al desarrollo desde las ciencias sociales.*
 
-<br>
-
-[![Datos](https://img.shields.io/badge/Análisis_de_datos-Python_·_SQL_·_R-2b6cb0?style=for-the-badge)](#-stack)
-[![GovTech](https://img.shields.io/badge/Tecnología-Administración_pública-2f855a?style=for-the-badge)](#-eje-2--tecnología--administración-pública)
-[![Puente](https://img.shields.io/badge/Puente-Ciencias_sociales_↔_Código-805ad5?style=for-the-badge)](#-eje-3--puente-para-quien-viene-de-las-ciencias-sociales)
-
-<br>
-
-**[Proyectos](#-mapa-de-proyectos)** · **[Rutas de lectura](#-por-dónde-empezar)** · **[Stack](#-stack)** · **[Contacto](#-contacto)**
+**[Proyectos](#mapa-de-proyectos)** · **[Ejes](#los-tres-ejes)** · **[Stack](#stack-tecnico)** · **[Trayectoria](#trayectoria)** · **[Contacto](#contacto)**
 
 </div>
 
 ---
 
-## 👋 Qué es este repositorio
+## Sobre este repositorio
 
-Este repositorio es la **capa 1** de mi portafolio: no contiene código, contiene el **índice y el criterio**. Cada proyecto vive en su propio repositorio, y desde aquí se explica **qué es, por qué existe y qué resuelve**.
+Este repositorio es la **capa 1** del portafolio: no contiene código, contiene el **índice y el criterio**. Cada proyecto vive en su propio repositorio, y desde aquí se explica qué es, por qué existe y qué resuelve.
 
-Vengo de las **ciencias sociales** y trabajo en **análisis de datos y desarrollo**. Esa doble pertenencia no es un accidente de biografía: es el hilo que ordena todo lo que hay aquí.
+Estudié **Estudios Políticos y Gobierno** y una **maestría en Gestión de Gobiernos Locales**; hoy trabajo construyendo y dando soporte a procesos ETL en producción. Ese trayecto —de la ciencia política a la ingeniería de datos— no es un dato biográfico suelto: es el criterio que ordena todo lo que hay aquí.
 
-> **La idea en una línea:** demostrar lo que sé hacer, y al mismo tiempo dejar el camino señalizado para quien viene detrás.
-
----
-
-## 🎯 Los tres ejes
-
-Todo lo que publico aquí cae en alguno de estos tres ejes. Si un proyecto no responde a ninguno, probablemente no pertenece a este portafolio.
-
-```mermaid
-graph TD
-    A["🧭 Portafolio<br/><i>capa 1 · este repo</i>"] --> B["📊 Eje 1<br/>Evidencia técnica"]
-    A --> C["🏛️ Eje 2<br/>Tecnología + administración pública"]
-    A --> D["🌱 Eje 3<br/>Puente desde las ciencias sociales"]
-
-    B --> B1["Proyectos de datos<br/>y desarrollo"]
-    C --> C1["Casos, guías<br/>y datos públicos"]
-    D --> D1["Rutas de aprendizaje<br/>y notas de proceso"]
-
-    style A fill:#2d3748,stroke:#4a5568,color:#fff
-    style B fill:#2b6cb0,stroke:#2c5282,color:#fff
-    style C fill:#2f855a,stroke:#276749,color:#fff
-    style D fill:#805ad5,stroke:#6b46c1,color:#fff
-```
-
-### 📊 Eje 1 · Evidencia técnica
-
-Para quien evalúa perfiles: proyectos con problema definido, datos reales, decisiones justificadas y resultado verificable. Cada repositorio incluye contexto, método, limitaciones y cómo reproducirlo.
-
-**Lo que busco mostrar:** que sé formular la pregunta antes de escribir la consulta.
-
-### 🏛️ Eje 2 · Tecnología + administración pública
-
-Un espacio para documentar **cómo se integra la tecnología a lo público sin romperlo**: qué funciona, qué fracasa y por qué. Análisis con datos abiertos, prototipos de herramientas para gobierno, notas sobre transparencia, compras públicas, indicadores y evaluación.
-
-**Lo que busco mostrar:** que la tecnología en el sector público es un problema institucional antes que técnico.
-
-### 🌱 Eje 3 · Puente para quien viene de las ciencias sociales
-
-La parte que más me importa. Si estudiaste sociología, ciencia política, antropología, economía, historia, trabajo social o comunicación y estás intentando entrar, mejorar o simplemente entender el análisis de datos y el desarrollo: **aquí encuentras el camino que yo recorrí, con los tropiezos incluidos.**
-
-**Lo que busco mostrar:** que tu formación no es un déficit que compensar, sino una ventaja que casi nadie sabe usar.
+> **En una línea:** documentar lo que sé hacer, y dejar señalizado el camino para quien viene detrás.
 
 ---
 
-## 🗺️ Mapa de proyectos
+## Los tres ejes
 
-> 🚧 En construcción. Este índice crece conforme publico cada repositorio.
+Todo lo que se publica aquí responde a alguno de estos tres ejes. Si un proyecto no cabe en ninguno, no pertenece a este portafolio.
 
-### Análisis de datos
+| Eje | Contenido | Dirigido a |
+|:---|:---|:---|
+| **1 · Evidencia técnica** | Pipelines, modelado de datos, automatización y análisis con datos reales | Equipos técnicos y procesos de selección |
+| **2 · Tecnología y administración pública** | Casos, datos abiertos y herramientas para el sector público | Servidores públicos y personas en govtech |
+| **3 · Puente desde las ciencias sociales** | Rutas de aprendizaje, notas de proceso y traducción de conceptos | Quien migra de ciencias sociales a datos |
 
-| Proyecto | Qué resuelve | Stack | Repo |
-|---|---|---|---|
+### Eje 1 · Evidencia técnica
+
+Proyectos con problema definido, datos reales, decisiones justificadas y resultado verificable. Cada repositorio documenta contexto, método, limitaciones y cómo reproducirlo.
+
+*El objetivo: mostrar que la pregunta se formula antes de escribir la consulta.*
+
+### Eje 2 · Tecnología y administración pública
+
+Documentar **cómo se integra la tecnología a lo público sin romperlo**: qué funciona, qué fracasa y por qué. Análisis con datos abiertos, prototipos de herramientas para gobierno, notas sobre calidad de datos institucionales, transparencia e indicadores de gestión.
+
+*El objetivo: mostrar que la tecnología en el sector público es un problema institucional antes que técnico.*
+
+### Eje 3 · Puente desde las ciencias sociales
+
+La parte que más me importa. Si estudiaste ciencia política, sociología, antropología, economía, historia, trabajo social o comunicación y estás intentando entrar, mejorar o simplemente entender el análisis y la ingeniería de datos: aquí está el camino que yo recorrí, con los tropiezos incluidos.
+
+*El objetivo: mostrar que la formación en ciencias sociales no es un déficit que compensar, sino una ventaja que pocos saben aprovechar.*
+
+---
+
+## Mapa de proyectos
+
+### Ingeniería y análisis de datos
+
+| Proyecto | Qué resuelve | Stack | Estado |
+|:---|:---|:---|:---|
+| **Elec_Fed2** | Pipeline ETL/ELT de datos electorales federales, con modelado en capas y tests de calidad | Sling · dbt · PostgreSQL · AWS | En desarrollo |
 | _Próximamente_ | — | — | — |
 
 ### Tecnología y administración pública
 
-| Proyecto | Qué resuelve | Stack | Repo |
-|---|---|---|---|
+| Proyecto | Qué resuelve | Stack | Estado |
+|:---|:---|:---|:---|
 | _Próximamente_ | — | — | — |
 
 ### Recursos de aprendizaje
 
-| Recurso | Para quién | Repo |
-|---|---|---|
+| Recurso | Para quién | Estado |
+|:---|:---|:---|
 | _Próximamente_ | — | — |
 
 <details>
-<summary><b>📌 Cómo leer cada ficha</b></summary>
+<summary><b>Estructura de cada ficha de proyecto</b></summary>
 
 <br>
 
-Cada proyecto del portafolio sigue la misma estructura, para que se pueda comparar y evaluar rápido:
+Todos los proyectos siguen la misma estructura, para que puedan compararse y evaluarse rápido:
 
 - **Problema** — la pregunta real, no el dataset.
-- **Datos** — origen, cobertura, limitaciones conocidas.
+- **Datos** — origen, cobertura y limitaciones conocidas.
 - **Método** — qué se hizo y por qué esa técnica y no otra.
 - **Resultado** — hallazgo, producto o decisión que habilita.
-- **Reproducibilidad** — cómo correrlo desde cero.
+- **Reproducibilidad** — cómo ejecutarlo desde cero.
 - **Qué haría distinto** — la sección que casi nadie escribe y que más dice de un perfil.
 
 </details>
 
 ---
 
-## 🧭 Por dónde empezar
-
-Distintas personas llegan aquí buscando cosas distintas. Elige tu ruta:
+## Por dónde empezar
 
 <table>
 <tr>
 <td width="33%" valign="top">
 
-### 💼 Vienes a evaluarme
+**Si vienes a evaluar el perfil**
 
-Ve directo al **[Eje 1](#-eje-1--evidencia-técnica)**. Cada ficha declara problema, método y resultado en menos de un minuto de lectura.
-
-</td>
-<td width="33%" valign="top">
-
-### 🌱 Vienes de las ciencias sociales
-
-Empieza por el **[Eje 3](#-eje-3--puente-para-quien-viene-de-las-ciencias-sociales)**. No necesitas saber programar para leerlo.
+Ve al [Eje 1](#eje-1--evidencia-técnica). Cada ficha declara problema, método y resultado en menos de un minuto de lectura.
 
 </td>
 <td width="33%" valign="top">
 
-### 🏛️ Trabajas en lo público
+**Si vienes de las ciencias sociales**
 
-Ve al **[Eje 2](#-eje-2--tecnología--administración-pública)**. Casos, datos abiertos y herramientas aplicables.
+Empieza por el [Eje 3](#eje-3--puente-desde-las-ciencias-sociales). No necesitas saber programar para leerlo.
+
+</td>
+<td width="33%" valign="top">
+
+**Si trabajas en el sector público**
+
+Ve al [Eje 2](#eje-2--tecnología-y-administración-pública). Casos, datos abiertos y herramientas aplicables.
 
 </td>
 </tr>
@@ -142,44 +123,65 @@ Ve al **[Eje 2](#-eje-2--tecnología--administración-pública)**. Casos, datos 
 
 ---
 
-## 🛠️ Stack
+## Stack técnico
 
 <div align="center">
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![BigQuery](https://img.shields.io/badge/BigQuery-669DF6?style=flat-square&logo=googlebigquery&logoColor=white)
+![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
 
 </div>
 
 | Área | Herramientas |
-|---|---|
-| **Análisis y datos** | Python (pandas, numpy), SQL, R |
-| **Visualización** | matplotlib, seaborn, Power BI |
-| **Métodos** | Estadística aplicada, análisis exploratorio, métodos mixtos |
-| **Entorno** | Git, Jupyter, línea de comandos |
-
-> ✏️ *Ajusta esta tabla a tu stack real; está puesta como punto de partida.*
-
----
-
-## 🧱 Cómo está organizado
-
-- **Este repositorio (capa 1)** — índice, criterio editorial y punto de entrada.
-- **Un repositorio por proyecto (capa 2)** — código, datos y documentación propia.
-- **Convención de nombres** — `datos-<tema>`, `gov-<tema>`, `guia-<tema>`, para que el eje se lea desde el nombre.
-
-Los proyectos se agregan al mapa cuando están **terminados y documentados**, no cuando están empezados. Un portafolio corto y sólido pesa más que uno largo y a medias.
+|:---|:---|
+| **ETL e integración de datos** | Desarrollo y soporte de procesos ETL en producción, dbt, Sling, web scraping como fuente de ingesta |
+| **SQL y bases de datos** | SQL, PostgreSQL, BigQuery, bases de datos relacionales, DBeaver |
+| **Lenguajes** | Python (Pandas, SQLAlchemy, regex) |
+| **Nube y entorno** | AWS, Google Cloud (Cloud Run), Docker |
+| **Otras** | Git, FastAPI, AppSheet, React (básico) |
+| **Colaboración** | Equipos ágiles y multifuncionales, documentación de procesos, resolución de incidencias |
 
 ---
 
-## 💬 Una nota personal
+## Trayectoria
 
-Aprender a programar y analizar datos viniendo de las ciencias sociales tiene una dificultad que casi nunca se nombra: **no es técnica, es de pertenencia.** Los tutoriales asumen un punto de partida que no es el tuyo, y es fácil confundir "no entiendo esta sintaxis" con "esto no es para mí".
+| Periodo | Rol | Organización |
+|:---|:---|:---|
+| Oct 2024 – Actualidad | Jefe Departamental B — Data y Automatización | Ayuntamiento de Zapopan |
+| Sep 2022 – Oct 2024 | Auditor Interno | Secretaría del Sistema de Asistencia Social, Jalisco |
+| Ene 2024 – Jun 2024 | Asesor en Análisis de Datos | Campaña electoral, Distrito 12, Jalisco |
+| Nov 2016 – Actualidad | Co-fundador y Data Consultant | Tres 2-B Consultores |
+
+**Formación**
+Maestría en Gestión de Gobiernos Locales · Universidad de Guadalajara (2019–2021)
+Licenciatura en Estudios Políticos y Gobierno · Universidad de Guadalajara (2003–2007)
+
+**Idiomas**
+Español (nativo) · Inglés (intermedio B1, Cambridge)
+
+---
+
+## Organización del portafolio
+
+- **Capa 1 — este repositorio.** Índice, criterio editorial y punto de entrada.
+- **Capa 2 — un repositorio por proyecto.** Código, datos y documentación propia.
+- **Convención de nombres.** `datos-<tema>`, `gov-<tema>`, `guia-<tema>`, para que el eje se lea desde el nombre.
+
+Los proyectos entran al mapa cuando están **terminados y documentados**, no cuando están empezados. Un portafolio corto y sólido pesa más que uno largo y a medias.
+
+---
+
+## Una nota personal
+
+Aprender a programar y a trabajar con datos viniendo de las ciencias sociales tiene una dificultad que casi nunca se nombra: no es técnica, es de pertenencia. Los tutoriales asumen un punto de partida que no es el tuyo, y es fácil confundir *"no entiendo esta sintaxis"* con *"esto no es para mí"*.
 
 Sí es para ti. Y las preguntas que aprendiste a hacer —sobre poder, contexto, sesgo, quién queda fuera de los datos— son exactamente las que le faltan a buena parte de este campo.
 
@@ -187,17 +189,16 @@ Si algo de lo que hay aquí te sirve, ya cumplió su función.
 
 ---
 
-## 📬 Contacto
-
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-@Dharmanet-181717?style=for-the-badge&logo=github)](https://github.com/Dharmanet)
-[![Email](https://img.shields.io/badge/Email-Escríbeme-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:omar.villasenorcarrillo@gmail.com)
+## Contacto
+
+[![GitHub](https://img.shields.io/badge/GitHub-Dharmanet-181717?style=flat-square&logo=github)](https://github.com/Dharmanet)
+[![Email](https://img.shields.io/badge/Email-omar.villasenorcarrillo@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:omar.villasenorcarrillo@gmail.com)
 
 <br>
 
-**¿Vienes de las ciencias sociales y estás empezando?**
-Escríbeme. Respondo.
+**¿Vienes de las ciencias sociales y estás empezando?** Escríbeme.
 
 <sub>Última actualización: agosto 2026</sub>
 
