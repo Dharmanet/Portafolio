@@ -60,7 +60,6 @@ La parte que más me importa. Si estudiaste ciencia política, sociología, antr
 
 | Proyecto | Qué resuelve | Stack | Estado |
 |:---|:---|:---|:---|
-| **Elec_Fed2** | Pipeline ETL/ELT de datos electorales federales, con modelado en capas y tests de calidad | Sling · dbt · PostgreSQL · AWS | En desarrollo |
 | _Próximamente_ | — | — | — |
 
 ### Tecnología y administración pública
